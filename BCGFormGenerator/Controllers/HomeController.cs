@@ -13,6 +13,11 @@ namespace BCGFormGenerator.Controllers
             return View();
         }
 
+        public ActionResult Generate(string param)
+        {
+            return null;
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
